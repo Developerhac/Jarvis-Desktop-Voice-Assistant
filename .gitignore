@@ -1,22 +1,42 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
 
-# Virtual environments
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : # Byte-compiled / optimized / DLL files
+                    __pycache__/
+                    *.py[codz]
+                    *$py.class
+                    
+                    # C extensions
+                    *.so
+                    
+                    # Distribution / packaging
+                    .Python
+                    build/
+                    develop-eggs/
+                    dist/
+                    downloads/
+                    eggs/
+                    .eggs/
+                    lib/
+                    lib64/
+                    parts...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+                    Strict-Transport-Security: max-age=31536000
+                    X-Content-Type-Options: nosniff
+                    ...
+Forms             : 
+Headers           : {[Connection, keep-alive], [Content-Security-Policy, default-src 'none'; style-src 
+                    'unsafe-inline'; sandbox], [Strict-Transport-Security, max-age=31536000], 
+                    [X-Content-Type-Options, nosniff]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : 
+RawContentLength  : 4562
+
+
+
 .venv/
-.venv311/
-env/
-venv/
-
-# Editor / OS files
-.vscode/
-*.swp
-.DS_Store
-Thumbs.db
-
-# Logs / runtime files
-*.log
-
-# Optional local data
-assistant_name.txt
